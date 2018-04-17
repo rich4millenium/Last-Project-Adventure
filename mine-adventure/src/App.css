@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-image: url(/static/media/Background-Pic2.c751f657.jpg);
+  height: 180vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+body {
+  background-color:white;
+  font-size: 200%;
+}
+
+.App-header {
+  background-color: burlywood;
+  height: 50px;
+  padding: 30px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} 
